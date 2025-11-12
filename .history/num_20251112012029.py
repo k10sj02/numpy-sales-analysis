@@ -9,7 +9,7 @@ for month in months:
   sales.append(value)
 
 sales= np.array(sales)
-print("\n ---- Company Sales Analysis----")
+print("\n ---- Company Sales Analysis---")
 print("Total Sales of the Year:", np.sum(sales), "$")
 print("Average Monthly Sales:", np.mean(sales), "$")
 print("Highest Sales:", np.max(sales), "$")

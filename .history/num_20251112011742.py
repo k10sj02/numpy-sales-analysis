@@ -9,14 +9,14 @@ for month in months:
   sales.append(value)
 
 sales= np.array(sales)
-print("\n ---- Company Sales Analysis----")
+print("\n ---- Company Sales Analysis---")
 print("Total Sales of the Year:", np.sum(sales), "$")
 print("Average Monthly Sales:", np.mean(sales), "$")
 print("Highest Sales:", np.max(sales), "$")
 print("Lowest Sales:", np.min(sales), "$")
 
-best_month= months[np.argmax(sales)]
-worst_month= months[np.argmin(sales)]
+best_month= months(np.argmax(sales))
+worst_month= months(np.argmin(sales))
 
 print("Best Month: ", best_month)
 print("Worst Month: ", worst_month)
